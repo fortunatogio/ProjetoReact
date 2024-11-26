@@ -1,0 +1,56 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container principal */
+  div {
+    text-align: center;
+    background-color: #3a3f47; /* Fundo do contador */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+  }
+  
+  /* Títulos */
+  h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #61dafb; /* Azul claro */
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Botões */
+  button {
+    background-color: #61dafb; /* Azul claro */
+    color: #282c34; /* Texto escuro */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4b9dc3; /* Azul mais escuro no hover */
+  }
+  

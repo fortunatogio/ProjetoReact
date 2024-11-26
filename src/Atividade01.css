@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; 
+    background-color: black; 
+    color: white; 
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .relogio {
+    flex: 1; 
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .relogio h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .relogio p {
+    font-size: 20px;
+  }
+  
+  
+  .letreiro {
+    flex: 1; 
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .letreiro h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .letreiro p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

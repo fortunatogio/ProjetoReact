@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+  }
+  .toolbar button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .gallery-item {
+    margin: 10px;
+    text-align: center;
+  }
+  .circle {
+    background-color: #61dafb;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+  

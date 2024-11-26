@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+
+.player-profile,
+.player-card {
+  border: 1px solid #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #222;
+  width: 250px; 
+  text-align: center;
+}
+
+
+.player-profile h2,
+.player-card h2 {
+  color: #ff0;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+
+.player-profile img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+.player-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+}
+
+
+.team-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team-list li {
+  margin: 5px 0;
+}
+
+.team-list .mvp {
+  font-weight: bold;
+  color: #ff4500;
+}
